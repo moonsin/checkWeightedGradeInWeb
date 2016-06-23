@@ -1,0 +1,23 @@
+{ 
+"manifest_version": 2, 
+"name": "教务系统获取平均分", 
+"version": "1.0", 
+"description": "教务系统获取平均分。点击按钮即可获取", 
+"icons": { "128": "shitd20.png" },
+"browser_action": { 
+"default_icon": "shitd20.png" 
+}, 
+"permissions": [ 
+"http://*/", 
+"bookmarks", 
+"tabs", 
+"history" 
+] , 
+"content_scripts": [ 
+{ 
+"matches": ["http://eams.uestc.edu.cn/*"], 
+"css": ["mystyles.css"], 
+"js": ["jquery.js","test.js"] 
+} 
+] 
+}

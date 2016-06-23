@@ -1,0 +1,8 @@
+.check-average a{
+	color: red;
+	cursor: pointer;
+	font-size: 15px;
+}
+.check-average {
+	margin-bottom: 15px;
+}
